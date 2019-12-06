@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#FF0303"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:onClick="goBack"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Help"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/faq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAQ"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/faq"
+                android:text="1. Firstly move the marker in the map and select the location you want to select. After that pop up box is displayed and you can add selected location name and task that you want to remind and you can see the longitude and latitude of location is shown and you and click on add button. "
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first"
+                android:text="1. Firstly move the marker in the map and select the location you want to select. After that pop up box is displayed and you can add selected location name and task that you want to remind and you can see the longitude and latitude of location is shown and you and click on add button. "
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/second"
+                android:text="1. Firstly move the marker in the map and select the location you want to select. After that pop up box is displayed and you can add selected location name and task that you want to remind and you can see the longitude and latitude of location is shown and you and click on add button. "
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/third"
+                android:text="1. Firstly move the marker in the map and select the location you want to select. After that pop up box is displayed and you can add selected location name and task that you want to remind and you can see the longitude and latitude of location is shown and you and click on add button. "
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/four"
+                android:text="1. Firstly move the marker in the map and select the location you want to select. After that pop up box is displayed and you can add selected location name and task that you want to remind and you can see the longitude and latitude of location is shown and you and click on add button. "
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/five"
+                android:text="1. Firstly move the marker in the map and select the location you want to select. After that pop up box is displayed and you can add selected location name and task that you want to remind and you can see the longitude and latitude of location is shown and you and click on add button. "
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+

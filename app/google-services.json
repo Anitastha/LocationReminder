@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "33172479450",
+    "firebase_url": "https://location-25800.firebaseio.com",
+    "project_id": "location-25800",
+    "storage_bucket": "location-25800.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33172479450:android:75002c8d51dfca6504f4e3",
+        "android_client_info": {
+          "package_name": "com.anita.locationreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33172479450-nbs3u3r1fmc2psarsd56gbsv194vlfh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anita.locationreminder",
+            "certificate_hash": "7f4e326c803dbce4762d69651330caf42be8b19c"
+          }
+        },
+        {
+          "client_id": "33172479450-ctbr9imm76cshtovbek8b967d25qccpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7XaFTvXesbnsx3Xg0wn_60yc08rCngRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33172479450-ctbr9imm76cshtovbek8b967d25qccpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
